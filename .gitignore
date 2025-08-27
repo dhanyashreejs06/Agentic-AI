@@ -2,3 +2,4 @@
 # ignore env files
 *.env
 **/.env
+.DS_Store
