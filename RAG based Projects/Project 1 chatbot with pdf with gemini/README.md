@@ -38,3 +38,29 @@ step 2 : to clear terminal zsh : command is zsh
 
 step 3: Get gemini api key 
 
+step 4 : 
+How to Add and Push New Subfolders in the Future
+Whenever you add a new folder (project) anywhere inside your main Agentic AI Projects folder, follow these steps:
+
+1. Add your new files/folders
+Just create them as usual in Finder or using mkdir/touch commands.
+
+2. Stage the changes
+From the root of your main project folder (Agentic AI Projects):
+
+This will stage all new and changed files/folders, including any new subfolders.
+
+3. Commit the changes
+Replace <your-folder-name> with the actual name or a description.
+
+4. Push to GitHub
+Example: Add a New Project
+Suppose you want to add a new folder called Project 2 chatbot inside RAG based Projects:
+
+Key Points
+Never initialize a new git repo inside a subfolder of your main repo.
+Always run git add . from the root of your main project to include all changes.
+Use git status to see what will be committed.
+Use clear commit messages.
+Summary:
+Just create new folders and files as needed, then always use git add ., git commit -m "message", and git push from your main project root. This will keep your GitHub repo up to date with all subfolders and files.
