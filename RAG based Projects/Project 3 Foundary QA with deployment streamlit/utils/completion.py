@@ -5,7 +5,7 @@ load_dotenv()
 API_KEY = os.getenv("EURI_API_KEY")
 
 def generate_completion(prompt, model="gpt-4.1-nano", temperature=0.3):
-    url = "https://api.euron.one/api/v1/euri/alpha/chat/completions"
+    url = "https://api.euron.one/api/v1/euri/chat/completions"
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json"
